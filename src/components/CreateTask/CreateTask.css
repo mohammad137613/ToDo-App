@@ -1,0 +1,51 @@
+.create-task  input{
+  font-size: 19px;
+  border: 1px solid #dfe6e9;
+  padding: 10px 15px;
+  flex: 1;
+  font-family: roboto;
+}
+
+.create-task  input:focus{
+  outline: none;
+  background-color: #f1f5f5;
+  
+  
+}
+
+.create-task  button{
+  width: 60px;
+  border: 1px solid #00b894;
+  background-color: #00b894;
+  padding: 11.5px 10px;
+  margin-left: -1px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  font-family: roboto;
+  color: white;
+}
+
+
+.create-task button:hover{
+  font-family: roboto;
+  border: 1px solid  rgba(0, 184, 148, .75) ;
+  background-color: rgba(0, 184, 148, .75) ;
+  transition-duration: .5s;
+
+  
+}
+
+
+.create-task {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-task form{
+  display: flex;
+  width: 100%;
+}

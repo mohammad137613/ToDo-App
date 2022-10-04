@@ -1,0 +1,36 @@
+.task-item{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:  15px 0;
+  background-color: #dfe6e9;
+  margin-top: 3px;
+}
+
+.task-title{
+  width: 100%;
+  color:#2d3436;
+  line-height: 22px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.task-checkbox{
+  width: 60px;
+}
+
+.tesk-delete{
+  width: 60px;
+}
+
+.tesk-delete button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.tesk-delete button:hover{
+  color:#d63031;
+}
