@@ -7,6 +7,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(250, 250, 250);
   font-family: Roboto;
+  zoom: 100%;
+
 }
 
 code {

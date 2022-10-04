@@ -28,10 +28,10 @@ const handleSubmit = (event)=>{
   return(
     <div className="create-task">
       <form onSubmit={handleSubmit}>
-        <input ref={inputTitle} onChange={changeTitle} type='text' placeholder="create your new task" />
+        <input ref={inputTitle} onChange={changeTitle} type='text' placeholder="Add New Task" />
         
         <button type='submit'>
-          add
+          Add
         </button>
       </form>
       

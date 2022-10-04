@@ -1,17 +1,8 @@
 [
   {"id":"1",
-  "title":"Learning JavaScript, Html, Css.",
+  "title":"This is A Sample Active Task.",
   "status":"active"},
   {"id":"2",
-  "title":"Writing first ToDo Application.",
-  "status":"active"},
-  {"id":"3",
-  "title":"Learning How To work with GitHub.",
-  "status":"active"},
-  {"id":"4",
-  "title":"Coding first Python program.",
-  "status":"completed"},
-  {"id":"5",
-  "title":"Writing first Website.",
+  "title":"This is A Sample Completed Task.",
   "status":"completed"}
 ]
