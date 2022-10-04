@@ -28,7 +28,7 @@ const Filters = ({changeFilter, filter, numOfItems})=>{
 
   return(
     <div className="filters">
-      <div className="num-of-items">{numOfItems} Items</div>
+      <div className="num-of-items">{numOfItems} Tasks</div>
       <div className="filter-buttons">
         <button onClick={()=>{changeFilter('all')}} ref={allFilter}>All</button>
         <button onClick={()=>{changeFilter('active')}} ref={activeFilter}>Active</button>
